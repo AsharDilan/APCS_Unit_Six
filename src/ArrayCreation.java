@@ -1,8 +1,10 @@
 public class ArrayCreation {
 
     public static double getAverage(double[] numbers) {
-
-       return 0.0; // Make sure to update this line. It is a temporary placeholder to avoid an error.
+        double first = numbers[0];
+        double last = numbers[numbers.length-1];
+        double middle = numbers [numbers.length/2];
+            return 0.0;// Make sure to update this line. It is a temporary placeholder to avoid an error.
     }
 
     public static String stringArray(String[] friends) {
